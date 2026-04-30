@@ -1,0 +1,12 @@
+names = ["RAM", "akshAya", "uday"]
+marks = [[89,33,44],[78,56,66],[66,78,98]]
+for i in range(3):
+    avg = sum(marks[i]) // 3   
+    if avg < 40:
+        grade = "Fail"
+    elif avg < 60:
+        grade = "B grade"
+    elif avg <= 80:
+   else:
+        grade = "A+ grade"
+    print("{} mr/ms {} has scored {}% - {}Grade".format(i+1,names[i].title(),avg,grade))
