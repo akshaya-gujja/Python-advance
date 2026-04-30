@@ -1,0 +1,2 @@
+a = 6789
+print(max(int(i) for i in str(a)))
