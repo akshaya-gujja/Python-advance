@@ -1,0 +1,5 @@
+b={'a':2,'b':3}
+a1=[i for i in b.keys()]
+a2=[i[1] for i in b.items()]
+print(a1)
+print(a2)
